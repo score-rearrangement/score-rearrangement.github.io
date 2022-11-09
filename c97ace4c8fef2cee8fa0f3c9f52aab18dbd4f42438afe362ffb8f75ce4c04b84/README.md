@@ -21,6 +21,9 @@ now under construction
 ![Sample1_lv4](img/sample1_lv4.svg) <audio src="audio/sample1_lv4.wav" controls></audio>
 
 ## Token Example
+Example score token (ST+) sequences corresponding to Fig.4 on the paper.
+The **level** token(s) at the top are difficulty conditioning tokens.
+
 ![TokenExample](img/token_example.png)
 
 ## Code 
