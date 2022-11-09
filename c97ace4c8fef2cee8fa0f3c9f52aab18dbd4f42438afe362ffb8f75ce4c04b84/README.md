@@ -1,6 +1,10 @@
 # Score Rearrangement
 now under construction
 
+We propose a notation-level rearrange method to change the difficulty level of piano scores. 
+
+![Overview](img/ST+_overview.svg)
+
 ## Sample
 #### Source score 
 - Intermediate level
