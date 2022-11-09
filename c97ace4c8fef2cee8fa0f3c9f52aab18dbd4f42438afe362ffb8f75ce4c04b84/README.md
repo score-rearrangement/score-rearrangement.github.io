@@ -1,17 +1,15 @@
 # Score Rearrangement
-now under construction
-
 We propose a notation-level rearrange method to change the difficulty level of piano scores. 
 
 ![Overview](img/ST+_overview.svg)
 
 ## Sample
-#### Source score 
+### Source score 
 - Intermediate level
 
 ![Sample1_src](img/sample1_lv3_src.svg) <audio src="audio/sample1_lv3_src.wav" controls></audio>
 
-#### Generated scores
+### Generated scores
 - Beginner level
 
 ![Sample1_lv1](img/sample1_lv1.svg) <audio src="audio/sample1_lv1.wav" controls></audio>
@@ -25,12 +23,12 @@ We propose a notation-level rearrange method to change the difficulty level of p
 ![Sample1_lv4](img/sample1_lv4.svg) <audio src="audio/sample1_lv4.wav" controls></audio>
 
 ## Token Example
-Example score token (ST+) sequences corresponding to the scores on Fig.4 in the paper.
+Example **score token (ST+) sequences** corresponding to the scores on Fig.4 in the paper.
 
 ![TokenExample](img/token_example.png)
 
-The **level** token(s) at the top are **difficulty conditioning** tokens (see Fig.2 / Section 2.1 in the paper). 
-Once trained, users can **change these tokens** on the source sequence **to control the playing difficulty** of scores. 
+The ***level*** token(s) at the top are **difficulty conditioning** tokens (see Fig.2 / Section 2.1 in the paper). 
+Users can change these tokens on the source sequence to **control the playing difficulty** of scores. 
 
 ## Code 
 coming soon!
