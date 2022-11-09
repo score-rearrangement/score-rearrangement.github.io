@@ -21,11 +21,11 @@ now under construction
 ![Sample1_lv4](img/sample1_lv4.svg) <audio src="audio/sample1_lv4.wav" controls></audio>
 
 ## Token Example
-Example score token (ST+) sequences corresponding to Fig.4 on the paper.
+Example score token (ST+) sequences corresponding to the scores on Fig.4 in the paper.
 
 ![TokenExample](img/token_example.png)
 
-The **level** token(s) at the top are **difficulty conditioning** tokens (see Fig.2 / Section 2.1 on the paper). 
+The **level** token(s) at the top are **difficulty conditioning** tokens (see Fig.2 / Section 2.1 in the paper). 
 Once trained, users can **change these tokens** on the source sequence **to control the playing difficulty** of scores. 
 
 ## Code 
