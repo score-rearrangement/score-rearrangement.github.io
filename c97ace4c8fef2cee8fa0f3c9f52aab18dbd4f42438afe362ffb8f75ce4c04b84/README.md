@@ -1,4 +1,4 @@
-# Score Rearrangement
+# Piano Score Rearrangement
 We propose a notation-level rearrangement method that changes the difficulty level of piano scores. 
 
 ![Overview](img/ST+_overview.svg)
