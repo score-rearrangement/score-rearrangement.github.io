@@ -22,7 +22,9 @@ now under construction
 
 ## Token Example
 Example score token (ST+) sequences corresponding to Fig.4 on the paper.
-The **level** token(s) at the top are difficulty conditioning tokens.
+
+The **level** token(s) at the top are difficulty conditioning tokens (see Fig.2 / Section 2.1 on the paper). 
+Once trained, users can change these tokens on the source sequence to control the difficulty of scores. 
 
 ![TokenExample](img/token_example.png)
 
