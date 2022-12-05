@@ -12,20 +12,20 @@ Score conversion directly on the notation domain enables us to **process musical
 
 ## Sample
 ### Source score 
-- Intermediate level
+- Intermediate level (Lv.3)
 
 ![Sample1_src](img/sample1_lv3_src.svg) <audio src="audio/sample1_lv3_src.wav" controls></audio>
 
 ### Generated scores
-- Beginner level
+- Beginner level (Lv.1)
 
 ![Sample1_lv1](img/sample1_lv1.svg) <audio src="audio/sample1_lv1.wav" controls></audio>
 
-- Elementary level
+- Elementary level (Lv.2)
 
 ![Sample1_lv2](img/sample1_lv2.svg) <audio src="audio/sample1_lv2.wav" controls></audio>
 
-- Advanced level
+- Advanced level (Lv.4)
 
 ![Sample1_lv4](img/sample1_lv4.svg) <audio src="audio/sample1_lv4.wav" controls></audio>
 
