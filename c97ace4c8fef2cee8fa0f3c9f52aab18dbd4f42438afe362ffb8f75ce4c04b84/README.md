@@ -12,22 +12,24 @@ Score conversion directly on the notation domain enables us to **process musical
 
 ## Sample
 ### Source score 
-- Intermediate level (Lv.3)
+- Intermediate (Lv.3)
 
 ![Sample1_src](img/sample1_lv3_src.svg) <audio src="audio/sample1_lv3_src.wav" controls></audio>
 
 ### Generated scores
-- Beginner level (Lv.1)
+- Beginner (Lv.1)
 
 ![Sample1_lv1](img/sample1_lv1.svg) <audio src="audio/sample1_lv1.wav" controls></audio>
 
-- Elementary level (Lv.2)
+- Elementary (Lv.2)
 
 ![Sample1_lv2](img/sample1_lv2.svg) <audio src="audio/sample1_lv2.wav" controls></audio>
 
-- Advanced level (Lv.4)
+- Advanced (Lv.4)
 
 ![Sample1_lv4](img/sample1_lv4.svg) <audio src="audio/sample1_lv4.wav" controls></audio>
+
+More samples to come!
 
 ## Token Example
 Example **score token (ST+) sequences** corresponding to the scores on Fig.4 in the paper.  
