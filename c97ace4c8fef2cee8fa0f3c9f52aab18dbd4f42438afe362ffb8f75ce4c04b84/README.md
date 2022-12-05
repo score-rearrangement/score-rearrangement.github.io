@@ -1,5 +1,5 @@
 # Piano Score Rearrangement
-We propose a **notation-level rearrangement** method that changes the **difficulty level** of piano scores.  
+We propose a **notation-level rearrangement** method that changes the **difficulty level** of piano scores.
 Score conversion directly on the notation domain enables us to **process musical information** in the scores **comprehensively**.
 
 ![Overview](img/ST+_overview.svg)
