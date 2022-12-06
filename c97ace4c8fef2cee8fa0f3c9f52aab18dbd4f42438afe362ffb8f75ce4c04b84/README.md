@@ -6,12 +6,12 @@ Score conversion directly on the notation domain enables us to **process musical
 
 ## Key Findings
 - We can **directly process musical scores** on the **notation** domain.
-- We can train a **single model** that convert scores between **multiple diffuculty levels**.
+- We can train a **single model** that convert scores between **multiple difficulty levels**.
 - **Bar-major** score token (ST+) **performs better** than staff-major score token (ST). 
 - The **quality** of rearranged scores are **not inferior to** those of **human-made ones**.
 
 ## Overall Architecture
-We **tokenize** score at notation level into sequence and **translate** them into another difficulty level, and then **detokenize** generated sequence back into score. 
+We ***tokenize*** score at notation level into sequence and ***translate*** them into another difficulty level, and then ***detokenize*** the result back into score. 
 We use ***level*** tokens (at the beginning of source sequence) for **difficulty conditioning**.
 By **changing** these tokens (in the ***inference*** phase), users can **control the playing difficulty** of scores. 
 
