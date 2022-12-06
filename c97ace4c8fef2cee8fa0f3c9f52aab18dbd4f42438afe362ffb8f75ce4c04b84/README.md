@@ -36,7 +36,7 @@ Example **score token (ST+) sequences** corresponding to the scores on Fig.4 in 
 We use ***level*** tokens at the beginning for **difficulty conditioning** (see Fig.2 / Section 2.1 in the paper).
 By **changing** these tokens (in the inference phase), users can **control the playing difficulty** of scores. 
 
-![TokenExample](img/token_example.png)
+![TokenExample](img/score_rearrangement_illustrated.png)
 
 ## Code 
 coming soon!
