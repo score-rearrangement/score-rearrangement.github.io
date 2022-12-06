@@ -33,8 +33,8 @@ Score conversion directly on the notation domain enables us to **process musical
 
 ## Token Example
 Example **score token (ST+) sequences** corresponding to the scores on Fig.4 in the paper.  
-The ***level*** token(s) at the beginning are **difficulty conditioning** tokens (see Fig.2 / Section 2.1 in the paper).
-By **changing** these tokens (on the source sequence), users can **control the playing difficulty** of scores. 
+We use ***level*** tokens at the beginning for **difficulty conditioning** (see Fig.2 / Section 2.1 in the paper).
+By **changing** these tokens (in the inference phase), users can **control the playing difficulty** of scores. 
 
 ![TokenExample](img/token_example.png)
 
