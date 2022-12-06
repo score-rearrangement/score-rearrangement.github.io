@@ -10,6 +10,13 @@ Score conversion directly on the notation domain enables us to **process musical
 - **Bar-major** score token (ST+) **performs better** than staff-major score token (ST). 
 - The **quality** of rearranged scores are **not inferior to** those of **human-made ones**.
 
+## Overall Architecture
+We **tokenize** score at notation level into sequence and **translate** them into another difficulty level, and then **detokenize** generated sequence back into score. 
+We use ***level*** tokens (at the beginning of source sequence) for **difficulty conditioning**.
+By **changing** these tokens (in the ***inference*** phase), users can **control the playing difficulty** of scores. 
+
+![TokenExample](img/score_rearrangement_illustrated.png)
+
 ## Sample
 ### Source score 
 - Intermediate (Lv.3)
@@ -30,13 +37,6 @@ Score conversion directly on the notation domain enables us to **process musical
 ![Sample1_lv4](img/sample1_lv4.svg) <audio src="audio/sample1_lv4.wav" controls></audio>
 
 ... and more samples to come!
-
-## Token Example
-Example **score token (ST+) sequences** corresponding to the scores on Fig.4 in the paper.  
-We use ***level*** tokens at the beginning for **difficulty conditioning** (see Fig.2 / Section 2.1 in the paper).
-By **changing** these tokens (in the inference phase), users can **control the playing difficulty** of scores. 
-
-![TokenExample](img/score_rearrangement_illustrated.png)
 
 ## Code 
 coming soon!
