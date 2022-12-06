@@ -11,7 +11,7 @@ Score conversion directly on the notation domain enables us to **process musical
 - The **quality** of rearranged scores are **not inferior to** those of **human-made ones**.
 
 ## Overall Architecture
-We ***tokenize*** score at notation level into sequence and ***translate*** them into another difficulty level, and then ***detokenize*** the result back into score. 
+We **tokenize** score at notation level into sequence and **translate** them into another difficulty level, and then **detokenize** the result back into score. 
 We use ***level*** tokens (at the beginning of source sequence) for **difficulty conditioning**.
 By **changing** these tokens (in the ***inference*** phase), users can **control the playing difficulty** of scores. 
 
