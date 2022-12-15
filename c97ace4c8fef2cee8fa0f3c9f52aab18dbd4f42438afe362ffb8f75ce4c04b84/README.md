@@ -5,7 +5,7 @@ Score conversion directly on the notation domain enables us to **process musical
 ![Overview](img/ST+_overview.svg)
 
 ## Key Findings
-- We can **directly process musical scores** on the **notation** domain.
+- We can **directly process musical scores** on the **notation** domain (using sequence-based method).
 - We can train a **single model** that convert scores between **multiple difficulty levels**.
 - **Bar-major** score token (ST+) **performs better** than staff-major score token (ST). 
 - The **quality** of rearranged scores are **not inferior to** those of **human-made ones**.
