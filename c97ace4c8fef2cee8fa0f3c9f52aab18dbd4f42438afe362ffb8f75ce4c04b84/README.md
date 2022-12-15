@@ -40,5 +40,5 @@ By **changing** these tokens (in the ***inference*** phase), users can **control
 
 ## Codes
 - [ST+ codes](assets/ST+_codes.zip)
-  - tokenizer / detokenizer with samples
-  - Currently tokenizer does not support chords (will be updated before the paper release)
+  - Tokenizer / detokenizer codes with samples
+  - Currently tokenizer does not support chords (though will be updated before the paper release)
