@@ -17,7 +17,7 @@ By **changing** these tokens (in the ***inference*** phase), users can **control
 
 ![TokenExample](img/score_rearrangement_illustrated.png)
 
-## Sample
+## Samples
 ### Source score 
 - Intermediate (Lv.3)
 
@@ -38,5 +38,7 @@ By **changing** these tokens (in the ***inference*** phase), users can **control
 
 ... and more samples to come!
 
-## Code 
-coming soon!
+## Codes
+- [ST+ codes](assets/ST+_codes.zip)
+  - tokenizer / detokenizer with samples
+  - Currently tokenizer does not support chords (will be updated before the paper release)
