@@ -1,4 +1,4 @@
-# Piano Score Rearrangement
+# Score Rearrangement
 We propose a **notation-level rearrangement** method that changes the **difficulty level** of piano scores.
 Score conversion directly on the notation domain enables us to **process musical information** in the scores **comprehensively**.
 
@@ -12,7 +12,7 @@ Score conversion directly on the notation domain enables us to **process musical
 ## Overall Architecture
 We **tokenize** score at notation level into sequence and **translate** them into another difficulty level, and then **detokenize** the result back into score. 
 We use ***level*** tokens (at the beginning of source sequence) for **difficulty conditioning**.
-By **changing** these tokens (in the ***inference*** phase), users can **control the playing difficulty** of scores. 
+By **changing** these tokens, users can **control the playing difficulty** of scores!
 
 ![TokenExample](img/score_rearrangement_illustrated.png)
 
