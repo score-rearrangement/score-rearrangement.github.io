@@ -8,7 +8,6 @@ Score conversion directly on the notation domain enables us to **process musical
 - We can **directly process musical scores** on the **notation** domain using sequence models.
 - We can train a **single model** that convert scores between **multiple difficulty levels**.
 - **Bar-major** score token (ST+) **performs better** than staff-major score token (ST). 
-- The **quality** of rearranged scores are **not inferior to** those of **human-made** ones.
 
 ## Overall Architecture
 We **tokenize** score at notation level into sequence and **translate** them into another difficulty level, and then **detokenize** the result back into score. 
@@ -37,8 +36,3 @@ By **changing** these tokens (in the ***inference*** phase), users can **control
 ![Sample1_lv4](img/sample1_lv4.svg) <audio src="audio/sample1_lv4.wav" controls></audio>
 
 ... and more samples to come!
-
-## Codes
-- [ST+ codes](assets/ST+_codes.zip)
-  - Tokenizer / detokenizer codes with samples
-  - Currently tokenizer does not support chords (though will be updated before the paper release)
